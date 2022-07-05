@@ -10,6 +10,7 @@ import javax.persistence.*;
  * muitos para um - categoria frete
  * muitos para um - veiculo
  */
+@Entity
 public class Frete implements EntidadeBase{
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

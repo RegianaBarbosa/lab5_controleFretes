@@ -7,6 +7,7 @@ import javax.persistence.*;
  *
  * @author Regiana
  */
+@Entity
 public class Cidade implements EntidadeBase{
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

@@ -7,6 +7,7 @@ import javax.persistence.*;
  *
  * @author Regiana
  */
+@Entity
 public class Distancia implements EntidadeBase{
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

@@ -8,6 +8,8 @@ import javax.persistence.*;
  *
  * @author Regiana
  */
+
+@Entity
 public class Dependente implements EntidadeBase{
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
