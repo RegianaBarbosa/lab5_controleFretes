@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="lab05_fretes" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <properties>
+      <!-- Configuring JDBC properties -->
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/lab5_controle_fretes?useSSL=false&amp;serverTimezone=UTC&amp;createDatabaseIfNotExist=true"/>
+      <property name="javax.persistence.jdbc.user" value="ifma"/>
+      <property name="javax.persistence.jdbc.password" value="ifma243"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <!-- Hibernate properties -->
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="true"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+    </properties>
+  </persistence-unit>
+  <persistence-unit name="lab5_fretes_teste" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <properties>
+      <!-- Configuring JDBC properties -->
+      <!-- Hibernate properties -->
+      
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="true"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/lab5_controle_fretes_testes?useSSL=false&amp;serverTimezone=UTC&amp;createDatabaseIfNotExist=true"/>
+      <property name="javax.persistence.jdbc.user" value="ifma"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="ifma243"/>
+    </properties>
+  </persistence-unit>
+</persistence>
