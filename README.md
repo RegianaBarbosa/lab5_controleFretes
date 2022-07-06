@@ -1,6 +1,5 @@
 # lab5_controleFretes
-## Sistemas de Informação - DCOMP/IFMA
-## Laboratório de Banco de Dados
+## DCOMP/IFMA - Sistemas de Informação - Laboratório de Banco de Dados
 
 ### Laboratório 05 – Mapeamento Objeto-Relacional com JPA/Hibernate
 #### Sistema de frete para uma transportadora
