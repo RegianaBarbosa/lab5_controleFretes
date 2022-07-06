@@ -1,15 +1,12 @@
 # lab5_controleFretes
-Desenvolvimento da camada de domínio com os mapeamentos das entidades para o backend de um sistema de controle de fretes.
-
 ## Sistemas de Informação - DCOMP/IFMA
 ## Laboratório de Banco de Dados
 
-### Laboratório 05 – Mapeamento Objeto-
-### Relacional com JPA/Hibernate
+### Laboratório 05 – Mapeamento Objeto-Relacional com JPA/Hibernate
+#### Sistema de frete para uma transportadora
 
-#### Entregas: 07-07-2022
+Desenvolvimento da camada de domínio com os mapeamentos das entidades para o backend de um sistema de controle de fretes.
 
-Sistema de frete para uma transportadora.
 Para isto, aqui será desenvolvimento da camada de domínio com os mapeamentos das
 entidades para o backend de um sistema de controle de fretes.
 
