@@ -1,5 +1,5 @@
 package com.edu.ifma.decomp.labdados.lab5_sist_controle_fretes.repositorio;
-import com.edu.ifma.decomp.labdados.lab5_sist_controle_fretes.model.EntidadeBase;
+import com.edu.ifma.decomp.labdados.lab5_sist_controle_fretes.modelo.EntidadeBase;
 import javax.persistence.EntityManager;
 import java.util.Objects;
 
